@@ -1,0 +1,113 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cs-modbus",
+        "scope": null,
+        "escapedName": "cs-modbus",
+        "name": "cs-modbus",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/jose"
+    ]
+  ],
+  "_from": "cs-modbus@latest",
+  "_id": "cs-modbus@1.1.0",
+  "_inCache": true,
+  "_location": "/cs-modbus",
+  "_nodeVersion": "6.9.5",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/cs-modbus-1.1.0.tgz_1487616830775_0.24741400522179902"
+  },
+  "_npmUser": {
+    "name": "billglase",
+    "email": "bglase@controls.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cs-modbus",
+    "scope": null,
+    "escapedName": "cs-modbus",
+    "name": "cs-modbus",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/cs-modbus/-/cs-modbus-1.1.0.tgz",
+  "_shasum": "bbae12c5848b74e26adc3021b790aadf1f663ea0",
+  "_shrinkwrap": null,
+  "_spec": "cs-modbus",
+  "_where": "/home/jose",
+  "bin": {
+    "mb": "mb.js"
+  },
+  "bugs": {
+    "url": "https://github.com/csllc/cs-modbus/issues"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "h5.buffers": "^0.1.1",
+    "minimist": "^1.2.0",
+    "serialport": "^4.0.7",
+    "socket.io-client": "^1.7.2",
+    "winston": "^2.3.1"
+  },
+  "description": "Modbus TCP/ASCII/RTU master for Control Solutions products",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-env": "^0.4.4",
+    "grunt-istanbul": "^0.7.2",
+    "grunt-simple-mocha": "^0.4.1",
+    "should": "^11.2.0",
+    "sinon": "^1.17.7"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "bbae12c5848b74e26adc3021b790aadf1f663ea0",
+    "tarball": "https://registry.npmjs.org/cs-modbus/-/cs-modbus-1.1.0.tgz"
+  },
+  "engine": [
+    "node ^6.9.1"
+  ],
+  "gitHead": "1a158bfc785b6eeda18c90789b26a0fd818fa714",
+  "homepage": "https://github.com/csllc/cs-modbus",
+  "keywords": [
+    "modbus",
+    "master",
+    "tcp",
+    "udp",
+    "rtu",
+    "ascii",
+    "serialport"
+  ],
+  "license": "MIT",
+  "main": "./lib/index",
+  "maintainers": [
+    {
+      "name": "billglase",
+      "email": "bglase@controls.com"
+    }
+  ],
+  "name": "cs-modbus",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/csllc/cs-modbus.git"
+  },
+  "scripts": {
+    "test": "grunt --force"
+  },
+  "version": "1.1.0"
+}

@@ -1,0 +1,99 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "h5.buffers@^0.1.1",
+        "scope": null,
+        "escapedName": "h5.buffers",
+        "name": "h5.buffers",
+        "rawSpec": "^0.1.1",
+        "spec": ">=0.1.1 <0.2.0",
+        "type": "range"
+      },
+      "/home/jose/node_modules/cs-modbus"
+    ]
+  ],
+  "_from": "h5.buffers@>=0.1.1 <0.2.0",
+  "_id": "h5.buffers@0.1.1",
+  "_inCache": true,
+  "_location": "/h5.buffers",
+  "_npmUser": {
+    "name": "morkai",
+    "email": "lukasz@walukiewicz.eu"
+  },
+  "_npmVersion": "1.2.18",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "h5.buffers@^0.1.1",
+    "scope": null,
+    "escapedName": "h5.buffers",
+    "name": "h5.buffers",
+    "rawSpec": "^0.1.1",
+    "spec": ">=0.1.1 <0.2.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/cs-modbus"
+  ],
+  "_resolved": "https://registry.npmjs.org/h5.buffers/-/h5.buffers-0.1.1.tgz",
+  "_shasum": "24487730530e4b00e49b5af170495dacfa4011be",
+  "_shrinkwrap": null,
+  "_spec": "h5.buffers@^0.1.1",
+  "_where": "/home/jose/node_modules/cs-modbus",
+  "author": {
+    "name": "Łukasz Walukiewicz",
+    "email": "lukasz@walukiewicz.eu",
+    "url": "http://lukasz.walukiewicz.eu/"
+  },
+  "bugs": {
+    "url": "https://github.com/morkai/h5.buffers/issues"
+  },
+  "dependencies": {},
+  "description": "A set of classes to simplify and extend reading from and writing to node.js Buffers.",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-cli": "~0.1.7",
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-jshint": "~0.4.3",
+    "grunt-env": "~0.4.0",
+    "grunt-istanbul": "~0.2.1",
+    "grunt-jasmine-node": "~0.1.0"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "24487730530e4b00e49b5af170495dacfa4011be",
+    "tarball": "https://registry.npmjs.org/h5.buffers/-/h5.buffers-0.1.1.tgz"
+  },
+  "engine": [
+    "node ~0.10.5"
+  ],
+  "homepage": "https://github.com/morkai/h5.buffers",
+  "keywords": [
+    "h5",
+    "buffer",
+    "reader",
+    "builder",
+    "queue",
+    "binary"
+  ],
+  "license": "MIT",
+  "main": "./lib/index",
+  "maintainers": [
+    {
+      "name": "morkai",
+      "email": "lukasz@walukiewicz.eu"
+    }
+  ],
+  "name": "h5.buffers",
+  "optionalDependencies": {},
+  "readme": "# h5.buffers\n\nA set of classes to simplify and extend reading from and writing to\nnode.js Buffers.\n\n[![Build Status](https://travis-ci.org/morkai/h5.buffers.png?branch=master)](https://travis-ci.org/morkai/h5.buffers)\n\n## Installation\n\n```\nnpm install h5.buffers\n```\n\nThe npm package includes only the bare minimum required to use the library\n(i.e. the `lib/` directory). Clone or download the repository if you need\nlocal access to `doc/`, `example/` or `spec/` directories.\n\n## Usage\n\nRequire the module:\n\n```javascript\nvar buffers = require('h5.buffers');\n```\n\nInstantiate any class and look up its API:\n\n```javascript\nvar reader = new buffers.BufferReader(new Buffer(256));\nvar builder = new buffers.BufferBuilder();\nvar queueReader = new buffers.BufferQueueReader();\n```\n\n## API\n\nCheck out JSDoc comment in the source files or\n[doc/](https://github.com/morkai/h5.buffers/tree/master/doc/api/)\ndirectory for API generated from these comments.\n\n## Examples\n\nCheck out [example/](https://github.com/morkai/h5.buffers/tree/master/example)\nand [spec/](https://github.com/morkai/h5.buffers/tree/master/spec)\ndirectories.\n\n## Tests\n\nTo run the tests, clone the repository:\n\n```\ngit clone git://github.com/morkai/h5.buffers.git\n```\n\nMake sure [Grunt](http://gruntjs.com/) is installed globally:\n(if not, then check out the Grunt's\n[Getting Started guide](https://github.com/gruntjs/grunt/wiki/Getting-started)).\n\n```\ngrunt -V\n```\n\nInstall the development dependencies:\n\n```\ncd h5.buffers/\nnpm install\n```\n\nAnd execute the `grunt test` command.\n\nTo generate the code coverage report, execute the `grunt coverage` command.\nA detailed code coverage report will be generated in the `build/coverage/`\ndirectory and can be viewed in the browser by opening the\n`build/coverage/lcov-report/index.html` file.\n\n## License\n\nThis project is released under the\n[MIT License](https://raw.github.com/morkai/buffers/master/license.md).\n",
+  "readmeFilename": "readme.md",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/morkai/h5.buffers.git"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "version": "0.1.1"
+}
