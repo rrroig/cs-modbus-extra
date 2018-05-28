@@ -402,9 +402,12 @@ else
 {
 	 
 	//no echo
+	//console.log(this.reader.length);
 	var unit = this.reader.shiftByte();
 	var responseBuffer = this.reader.shiftBuffer(this.reader.length - 2);
 	var checksum = this.reader.shiftUInt16(true);
+	got_no_echo=false;
+	
 }
   
   
